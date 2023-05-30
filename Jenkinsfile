@@ -1,7 +1,6 @@
 currentBuild.buildName = "jenkins-build-#" + currentBuild.number
-
- agent any {
-   
+ pipeline {
+ agent any  
    stages {
      stage('trying this singlie block pipeline'){
        steps {
@@ -14,3 +13,4 @@ currentBuild.buildName = "jenkins-build-#" + currentBuild.number
 
  }
 
+ 
